@@ -1,0 +1,14 @@
+{
+  "name": "nagal-shipping-rates",
+  "version": "0.0.1",
+  "description": "Lookup Nagal Shipping Rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape tests/tests.js"
+  },
+  "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
