@@ -16,8 +16,24 @@ test('zones is made of a 24 by 24 table', (t) => {
   t.end()
 })
 
-test('getShipping will error if the arguments are not on the lookup table', (t) => {
+test('should return an error for invalid departureZones', (t) => {
+  const err = getShipping(30, 1, 1)
+  t.plan(2)
+  t.ok(err)
+  t.equal(err.message, '30 is not a valid departureZone', '30 is not a valid departureZone')
+  t.end()
+})
+
+test('should return an error for invalid deliveryZones', (t) => {
+  const err = getShipping(1, 31, 1)
   t.plan(1)
-  t.throws(() => { getShipping(26, 1, 1) }, /26 is not a valid departureZone/)
+  t.equal(err.message, '31 is not a valid deliveryZone', '31 is not a valid deliveryZone')
+  t.end()
+})
+
+test('some shipping zones are not supported', (t) => {
+  const err = getShipping(16, 16, 1)
+  t.plan(1)
+  t.equal(err.message, 'POA - Prices available on application', 'POA - Prices available on application')
   t.end()
 })
