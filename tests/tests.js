@@ -11,7 +11,13 @@ test('should return a shipping rate', (t) => {
 
 test('zones is made of a 24 by 24 table', (t) => {
   t.plan(2)
-  t.ok(Object.keys(zones).every((zone) => zones[zone].length === 24), 'the zone table is made of 24 columns')
-  t.equal(Object.keys(zones).length, 24, 'and 24 rows')
+  t.ok(zones.every((zone) => zone.length === 24), 'the zone table is made of 24 columns')
+  t.equal(zones.length, 24, 'and 24 rows')
+  t.end()
+})
+
+test('getShipping will error if the arguments are not on the lookup table', (t) => {
+  t.plan(1)
+  t.throws(() => { getShipping(26, 1, 1) }, /26 is not a valid departureZone/)
   t.end()
 })
