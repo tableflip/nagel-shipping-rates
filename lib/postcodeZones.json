@@ -29,11 +29,11 @@
   },
   "BL": {
     "placeName": "Bolton",
-    "zones": {
-      "0-4": 11,
-      "6-9": 11,
-      "5": 10
-    }
+    "zones": [
+      {"0-4": 11},
+      {"6-9": 11},
+      {"5": 10}
+    ]
   },
   "BN": {
     "placeName": "Brighton",
@@ -41,10 +41,10 @@
   },
   "BR": {
     "placeName": "Bromley",
-    "zones": {
-      "1-7": 5,
-      "8": 4
-    }
+    "zones": [
+      {"1-7": 5},
+      {"8": 4}
+    ]
   },
   "BS": {
     "placeName": "Bristol",

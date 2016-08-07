@@ -40,18 +40,25 @@ test('some shipping zones are not supported', (t) => {
 })
 
 test('should be able to lookup postcodes with Double area codes', (t) => {
-  const zone = getZone('B2 9BA')
+  const shipping = getZone('B2 9BA')
   t.plan(4)
-  t.equal(typeof zone, 'object', 'postcode module returns an object')
-  t.ok(zone.placeName, 'with a placeName')
-  t.ok(zone.zone, 'and a zone')
-  t.equal(zone.zone, 23, 'Birmingham is in zone 23')
+  t.equal(typeof shipping, 'object', 'postcode module returns an object')
+  t.ok(shipping.placeName, 'with a placeName')
+  t.ok(shipping.zone, 'and a zone')
+  t.equal(shipping.zone, 23, 'Birmingham is in zone 23')
   t.end()
 })
 
-test('should be able to lookup postcodes with Single area codes', (t) => {
-  const zone = getZone('BL5 9BA')
+test('should be able to lookup sub districts that are a single value', (t) => {
+  const shipping = getZone('BL5 9BA')
   t.plan(1)
-  t.ok(zone, 'postcode module returns an object')
+  t.equal(shipping.zone, 10, 'Bolton BL5 is in zone 10')
+  t.end()
+})
+
+test('should be able to lookup sub districts in a range', (t) => {
+  const shipping = getZone('BL1 9BA')
+  t.plan(1)
+  t.equal(shipping.zone, 11, 'Bolton BL1 is in zone 11')
   t.end()
 })
