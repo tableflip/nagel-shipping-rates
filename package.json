@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "postcode": "^0.2.5"
   }
 }

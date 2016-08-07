@@ -1,6 +1,7 @@
 const test = require('tape')
 const getShipping = require('../index')
 const zones = require('../lib/zones')
+const getZone = require('../lib/postcodes')
 
 test('should return a shipping rate', (t) => {
   t.plan(1)
@@ -35,5 +36,22 @@ test('some shipping zones are not supported', (t) => {
   const err = getShipping(16, 16, 1)
   t.plan(1)
   t.equal(err.message, 'POA - Prices available on application', 'POA - Prices available on application')
+  t.end()
+})
+
+test('should be able to lookup postcodes with Double area codes', (t) => {
+  const zone = getZone('B2 9BA')
+  t.plan(4)
+  t.equal(typeof zone, 'object', 'postcode module returns an object')
+  t.ok(zone.placeName, 'with a placeName')
+  t.ok(zone.zone, 'and a zone')
+  t.equal(zone.zone, 23, 'Birmingham is in zone 23')
+  t.end()
+})
+
+test('should be able to lookup postcodes with Single area codes', (t) => {
+  const zone = getZone('BL5 9BA')
+  t.plan(1)
+  t.ok(zone, 'postcode module returns an object')
   t.end()
 })

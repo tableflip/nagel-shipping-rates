@@ -1,0 +1,53 @@
+{
+  "AB": {
+    "placeName": "Aberdeen",
+    "zone": 14
+  },
+  "AL": {
+    "placeName": "St Albans",
+    "zone": 7
+  },
+  "B": {
+    "placeName": "Birmingham",
+    "zone": 23
+  },
+  "BA": {
+    "placeName": "Bath",
+    "zone": 2
+  },
+  "BB": {
+    "placeName": "Blackburn",
+    "zone": 11
+  },
+  "BD": {
+    "placeName": "Bradford",
+    "zone": 11
+  },
+  "BH": {
+    "placeName": "Bournemouth",
+    "zone": 2
+  },
+  "BL": {
+    "placeName": "Bolton",
+    "zones": {
+      "0-4": 11,
+      "6-9": 11,
+      "5": 10
+    }
+  },
+  "BN": {
+    "placeName": "Brighton",
+    "zone": 4
+  },
+  "BR": {
+    "placeName": "Bromley",
+    "zones": {
+      "1-7": 5,
+      "8": 4
+    }
+  },
+  "BS": {
+    "placeName": "Bristol",
+    "zone": 2
+  }
+}
