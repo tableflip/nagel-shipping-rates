@@ -7,7 +7,7 @@
     "test": "standard && tape tests/tests.js"
   },
   "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^4.6.0"
   },

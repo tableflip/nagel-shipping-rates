@@ -1,7 +1,7 @@
 const test = require('tape')
-const getShipping = require('../index')
+const getShipping = require('../lib/getRate')
 const zones = require('../lib/zones')
-const getZone = require('../lib/postcodes')
+const getZone = require('../lib/getZone')
 
 test('should return a shipping rate', (t) => {
   t.plan(1)
@@ -29,6 +29,20 @@ test('should return an error for invalid deliveryZones', (t) => {
   const err = getShipping(1, 31, 1)
   t.plan(1)
   t.equal(err.message, '31 is not a valid deliveryZone', '31 is not a valid deliveryZone')
+  t.end()
+})
+
+test('should return an error for invalid pallet numbers', (t) => {
+  const err = getShipping(1, 1, 15)
+  t.plan(1)
+  t.equal(err.message, 'max pallet number is 14', 'max pallet number is 14')
+  t.end()
+})
+
+test('should handle pallets between 10 and 14', (t) => {
+  const rate = getShipping(1, 1, 13)
+  t.plan(1)
+  t.equal(rate, 23.25, '13 is correctly recast to 10 for rate lookup')
   t.end()
 })
 
