@@ -4,11 +4,12 @@
   "description": "Lookup Nagel Shipping Rates",
   "main": "index.js",
   "scripts": {
-    "test": "standard && tape tests/tests.js"
+    "test": "standard && istanbul cover tape tests/tests.js"
   },
   "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
   "license": "MIT",
   "devDependencies": {
+    "istanbul": "^0.4.4",
     "tape": "^4.6.0"
   },
   "dependencies": {
