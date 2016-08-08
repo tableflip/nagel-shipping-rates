@@ -279,5 +279,352 @@
   "KT": {
     "placeName": "Kingston-upon-Thames",
     "zone": 5
+  },
+  "KY": {
+    "placeName": "Kirkcaldy",
+    "zone": 13
+  },
+  "E": {
+    "placeName": "East London",
+    "zone": 5
+  },
+  "EC": {
+    "placeName": "East London",
+    "zone": 5
+  },
+  "N": {
+    "placeName": "North London",
+    "zone": 5
+  },
+  "NW": {
+    "placeName": "North West London",
+    "zone": 5
+  },
+  "SE": {
+    "placeName": "South East London",
+    "zone": 5
+  },
+  "SW": {
+    "placeName": "South West London",
+    "zone": 5
+  },
+  "W": {
+    "placeName": "West London",
+    "zone": 5
+  },
+  "WC": {
+    "placeName": "West Central London",
+    "zone": 5
+  },
+  "L": {
+    "placeName": "Liverpool",
+    "zones": [
+      {"1-38": 10},
+      {"39": 11},
+      {"40": 11}
+    ]
+  },
+  "LA": {
+    "placeName": "Lancaster",
+    "zones": [
+      {"1-5": 11},
+      {"6-23": 12}
+    ]
+  },
+  "LD": {
+    "placeName": "Llandrindod Wells",
+    "zone": 15
+  },
+  "LE": {
+    "placeName": "Leicester",
+    "zone": 9
+  },
+  "LL": {
+    "placeName": "Llandudno",
+    "zone": 10
+  },
+  "LN": {
+    "placeName": "Lincoln",
+    "zone": 24
+  },
+  "LS": {
+    "placeName": "Leeds",
+    "zone": 11
+  },
+  "LU": {
+    "placeName": "Luton",
+    "zone": 7
+  },
+  "M": {
+    "placeName": "Manchester",
+    "zone": 10
+  },
+  "ME": {
+    "placeName": "Medway",
+    "zone": 4
+  },
+  "MK": {
+    "placeName": "Milton Keynes",
+    "zone": 7
+  },
+  "ML": {
+    "placeName": "Motherwell",
+    "zone": 13
+  },
+  "NE": {
+    "placeName": "Newcastle-upon-Tyne",
+    "zone": 12
+  },
+  "NG": {
+    "placeName": "Nottingham",
+    "zones": [
+      {"1-25": 9},
+      {"31-34": 24}
+    ]
+  },
+  "NN": {
+    "placeName": "Northampton",
+    "zone": 7
+  },
+  "NP": {
+    "placeName": "Newport",
+    "zone": 3
+  },
+  "NR": {
+    "placeName": "Norwich",
+    "zone": 8
+  },
+  "OL": {
+    "placeName": "Oldham",
+    "zones": [
+      {"1-11": 10},
+      {"15": 10},
+      {"16": 10},
+      {"12-14": 11}
+    ]
+  },
+  "OX": {
+    "placeName": "Oxford",
+    "zone": 7
+  },
+  "PA": {
+    "placeName": "Paisley",
+    "zone": 13
+  },
+  "PE": {
+    "placeName": "Peterborough",
+    "zones": [
+      {"1-7": 8},
+      {"13-16": 8},
+      {"19": 8},
+      {"26-38": 8},
+      {"8": 7},
+      {"9-12": 24},
+      {"20-25": 24}
+    ]
+  },
+  "PH": {
+    "placeName": "Perth",
+    "zones": [
+      {"1-14": 13},
+      {"15": 14},
+      {"16": 14},
+      {"18-26": 14}
+    ]
+  },
+  "PL": {
+    "placeName": "Plymouth",
+    "zone": 1
+  },
+  "PO": {
+    "placeName": "Portsmouth",
+    "zones": [
+      {"1-9": 2},
+      {"11-17": 2},
+      {"10": 4},
+      {"18-22": 4}
+    ]
+  },
+  "PR": {
+    "placeName": "Preston",
+    "zones": [
+      {"1-7": 11},
+      {"9": 11},
+      {"25": 11},
+      {"26": 11},
+      {"8": 10}
+    ]
+  },
+  "RG": {
+    "placeName": "Reading",
+    "zones": [
+      {"1-20": 7},
+      {"30": 7},
+      {"31": 7},
+      {"21-29": 2}
+    ]
+  },
+  "RH": {
+    "placeName": "Redhill",
+    "zone": 4
+  },
+  "RM": {
+    "placeName": "Romford",
+    "zones": [
+      {"1-14": 5},
+      {"19": 5},
+      {"15-18": 4},
+      {"20": 4}
+    ]
+  },
+  "S": {
+    "placeName": "Sheffield",
+    "zones": [
+      {"1-79": 9},
+      {"80": 24},
+      {"81": 24}
+    ]
+  },
+  "SA": {
+    "placeName": "Swansea",
+    "zones": [
+      {"1-13": 3},
+      {"14-20": 15},
+      {"30-48": 15},
+      {"61-73": 15}
+    ]
+  },
+  "SG": {
+    "placeName": "Stevenage",
+    "zone": 7
+  },
+  "SK": {
+    "placeName": "Stockport",
+    "zone": 10
+  },
+  "SL": {
+    "placeName": "Slough",
+    "zone": 7
+  },
+  "SM": {
+    "placeName": "Sutton",
+    "zone": 5
+  },
+  "SN": {
+    "placeName": "Swindon",
+    "zone": 2
+  },
+  "SO": {
+    "placeName": "Southampton",
+    "zone": 2
+  },
+  "SP": {
+    "placeName": "Salisbury",
+    "zone": 2
+  },
+  "SR": {
+    "placeName": "Sunderland",
+    "zone": 12
+  },
+  "SS": {
+    "placeName": "Southend-on-Sea",
+    "zone": 4
+  },
+  "ST": {
+    "placeName": "Stoke-on-Trent",
+    "zones": [
+      {"1-15": 10},
+      {"21": 10},
+      {"16-20": 23}
+    ]
+  },
+  "SY": {
+    "placeName": "Shrewsbury",
+    "zones": [
+      {"1-9": 23},
+      {"21": 23},
+      {"10-14": 10},
+      {"15-20": 15},
+      {"22-25": 15}
+    ]
+  },
+  "TA": {
+    "placeName": "Taunton",
+    "zone": 2
+  },
+  "TD": {
+    "placeName": "Galashiels",
+    "zone": 13
+  },
+  "TF": {
+    "placeName": "Telford",
+    "zones": [
+      {"1-8": 23},
+      {"10-13": 23},
+      {"9": 10}
+    ]
+  },
+  "TN": {
+    "placeName": "Tonbridge",
+    "zone": 4
+  },
+  "TQ": {
+    "placeName": "Torquay",
+    "zone": 1
+  },
+  "TR": {
+    "placeName": "Truro",
+    "zone": 1
+  },
+  "TS": {
+    "placeName": "Cleveland",
+    "zones": [
+      {"1-8": 12},
+      {"10-29": 12},
+      {"9": 11}
+    ]
+  },
+  "TW": {
+    "placeName": "Twickenham",
+    "zone": 5
+  },
+  "UB": {
+    "placeName": "Southall",
+    "zone": 5
+  },
+  "WA": {
+    "placeName": "Warrington",
+    "zone": 10
+  },
+  "WD": {
+    "placeName": "Watford",
+    "zone": 7
+  },
+  "WF": {
+    "placeName": "Wakefield",
+    "zone": 11
+  },
+  "WN": {
+    "placeName": "Wigan",
+    "zones": [
+      {"1-7": 10},
+      {"8": 11}
+    ]
+  },
+  "WR": {
+    "placeName": "Worcester",
+    "zone": 23
+  },
+  "WS": {
+    "placeName": "Walsall",
+    "zone": 23
+  },
+  "WV": {
+    "placeName": "Wolverhampton",
+    "zone": 23
+  },
+  "YO": {
+    "placeName": "York",
+    "zone": 11
   }
 }
