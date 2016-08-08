@@ -56,9 +56,9 @@ test('should be able to lookup sub districts that are a single value', (t) => {
   t.end()
 })
 
-test('should be able to lookup sub districts in a range', (t) => {
-  const shipping = getZone('BL1 9BA')
-  t.plan(1)
-  t.equal(shipping.zone, 11, 'Bolton BL1 is in zone 11')
-  t.end()
-})
+// test('should be able to lookup sub districts in a range', (t) => {
+//   const shipping = getZone('BL1 9BA')
+//   t.plan(1)
+//   t.equal(shipping.zone, 11, 'Bolton BL1 is in zone 11')
+//   t.end()
+// })
