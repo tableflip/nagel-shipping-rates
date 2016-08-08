@@ -1,5 +1,7 @@
 # Nagel Group Shipping rates
 
+![](https://www1.picturepush.com/photo/a/15009430/640/Nieuwsfoto's-11/Nagel-Group.jpg?v0)
+
 `npm install`
 
 `npm run test`
