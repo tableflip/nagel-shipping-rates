@@ -1,4 +1,4 @@
-# Nagel Group Shipping rates
+# Nagel Group Shipping rates [![CircleCI](https://circleci.com/gh/tableflip/nagel-shipping-rates.svg?style=svg&circle-token=7ad906109fd0521a92193b2cbcb2e8972194807a)](https://circleci.com/gh/tableflip/nagel-shipping-rates)
 
 ![](https://www1.picturepush.com/photo/a/15009430/640/Nieuwsfoto's-11/Nagel-Group.jpg?v0)
 
