@@ -49,5 +49,235 @@
   "BS": {
     "placeName": "Bristol",
     "zone": 2
+  },
+  "BT": {
+    "placeName": "Belfast, N.Ireland",
+    "zones": [
+      {"1-44": 16},
+      {"53": 16},
+      {"54": 16},
+      {"56": 16},
+      {"57": 16},
+      {"60-67": 16},
+      {"42-52": 17},
+      {"55": 17},
+      {"68-71": 17},
+      {"74-82": 17},
+      {"92-94": 17}
+    ]
+  },
+  "CA": {
+    "placeName": "Carlisle",
+    "zone": 12
+  },
+  "CB": {
+    "placeName": "Cambridge",
+    "zone": 8
+  },
+  "CF": {
+    "placeName": "Cardiff",
+    "zone": 3
+  },
+  "CH": {
+    "placeName": "Chester",
+    "zone": 10
+  },
+  "CM": {
+    "placeName": "Chelmsford",
+    "zones": [
+      {"0-22": 4},
+      {"24": 4},
+      {"77": 4},
+      {"23": 7}
+    ]
+  },
+  "CO": {
+    "placeName": "Colchester",
+    "zone": 4
+  },
+  "CR": {
+    "placeName": "Croydon",
+    "zone": 5
+  },
+  "CT": {
+    "placeName": "Canterbury",
+    "zone": 4
+  },
+  "CV": {
+    "placeName": "Coventry",
+    "zone": 23
+  },
+  "CW": {
+    "placeName": "Crewe",
+    "zone": 10
+  },
+  "DA": {
+    "placeName": "Dartford",
+    "zones": [
+      {"1-13": 4},
+      {"14-18": 5}
+    ]
+  },
+  "DD": {
+    "placeName": "Dundee",
+    "zone": 13
+  },
+  "DE": {
+    "placeName": "Derby",
+    "zones": [
+      {"1-12": 9},
+      {"21-24": 9},
+      {"45": 9},
+      {"55": 9},
+      {"56": 9},
+      {"65": 9},
+      {"72-75": 9},
+      {"13-15": 10}
+    ]
+  },
+  "DG": {
+    "placeName": "Dumfries",
+    "zone": 13
+  },
+  "DH": {
+    "placeName": "Durham",
+    "zone": 12
+  },
+  "DL": {
+    "placeName": "Darlington",
+    "zones": [
+      {"1-5": 12},
+      {"12-17": 12},
+      {"6-11": 11}
+    ]
+  },
+  "DN": {
+    "placeName": "Doncaster",
+    "zones": [
+      {"1-8": 9},
+      {"11": 9},
+      {"12": 9},
+      {"9": 24},
+      {"10": 24},
+      {"15-22": 24},
+      {"31-41": 24},
+      {"14": 11}
+    ]
+  },
+  "DT": {
+    "placeName": "Dorchester",
+    "zone": 2
+  },
+  "DY": {
+    "placeName": "Dudley",
+    "zone": 23
+  },
+  "EH": {
+    "placeName": "Edinburgh",
+    "zone": 13
+  },
+  "EN": {
+    "placeName": "Enfield",
+    "zones": [
+      {"1-5": 5},
+      {"6-8": 7},
+      {"10": 7},
+      {"11": 7},
+      {"9": 4}
+    ]
+  },
+  "EX": {
+    "placeName": "Exeter",
+    "zone": 1
+  },
+  "FK": {
+    "placeName": "Falkirk",
+    "zone": 13
+  },
+  "FY": {
+    "placeName": "Blackpool",
+    "zone": 11
+  },
+  "G": {
+    "placeName": "Glasgow",
+    "zone": 13
+  },
+  "GL": {
+    "placeName": "Gloucester",
+    "zone": 6
+  },
+  "GU": {
+    "placeName": "Guildford",
+    "zones": [
+      {"1-10": 4},
+      {"12": 4},
+      {"15": 4},
+      {"16": 4},
+      {"18-25": 4},
+      {"27-29": 4},
+      {"11": 2},
+      {"14": 2},
+      {"17": 2},
+      {"26": 2},
+      {"30-35": 2},
+      {"46": 2},
+      {"47": 2},
+      {"51": 2},
+      {"52": 2}
+    ]
+  },
+  "HA": {
+    "placeName": "Harrow",
+    "zone": 5
+  },
+  "HD": {
+    "placeName": "Huddersfield",
+    "zone": 11
+  },
+  "HG": {
+    "placeName": "Harrogate",
+    "zone": 11
+  },
+  "HP": {
+    "placeName": "Hemel Hempstead",
+    "zone": 7
+  },
+  "HR": {
+    "placeName": "Hereford",
+    "zones": [
+      {"1-5": 6},
+      {"8": 6},
+      {"9": 6},
+      {"6": 23},
+      {"7": 23}
+    ]
+  },
+  "HU": {
+    "placeName": "Hull",
+    "zone": 11
+  },
+  "HX": {
+    "placeName": "Halifax",
+    "zone": 11
+  },
+  "IG": {
+    "placeName": "Ilford",
+    "zone": 5
+  },
+  "IP": {
+    "placeName": "Ipswich",
+    "zone": 8
+  },
+  "IV": {
+    "placeName": "Inverness",
+    "zone": 14
+  },
+  "KA": {
+    "placeName": "Kilmarnock",
+    "zone": 13
+  },
+  "KT": {
+    "placeName": "Kingston-upon-Thames",
+    "zone": 5
   }
 }
