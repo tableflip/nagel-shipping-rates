@@ -1,15 +1,15 @@
-# Nagal Group Shipping rates
+# Nagel Group Shipping rates
 
 `npm install`
 
 `npm run test`
 
-Exports a function that takes a departure zone, a delivery zone and the number of pallets you want a price for.
+Exports a function that takes a departure postcode, a delivery postcode and the number of pallets you want a price for.
 
 ```
-const getShipping = require('nagal-shipping-rates')
+const getShipping = require('nagel-shipping-rates')
 
-getShipping(2, 5, 3)
+getShipping('SE22 9BA', 'BL4 IY8', 3)
 
 // 71.31
 ```
