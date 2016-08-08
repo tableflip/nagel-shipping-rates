@@ -17,25 +17,28 @@ test('zones is made of a 24 by 24 table', (t) => {
   t.end()
 })
 
-test('should return an error for invalid departureZones', (t) => {
-  const err = getShipping(30, 1, 1)
-  t.plan(2)
-  t.ok(err)
-  t.equal(err.message, '30 is not a valid departureZone', '30 is not a valid departureZone')
+test('should throw an error for invalid departureZones', (t) => {
+  t.plan(1)
+  t.throws(() => { getShipping(30, 1, 1) }, /30 is not a valid departureZone/)
   t.end()
 })
 
-test('should return an error for invalid deliveryZones', (t) => {
-  const err = getShipping(1, 31, 1)
+test('should throw an error for invalid deliveryZones', (t) => {
   t.plan(1)
-  t.equal(err.message, '31 is not a valid deliveryZone', '31 is not a valid deliveryZone')
+  t.throws(() => { getShipping(1, 31, 1) }, /31 is not a valid deliveryZone/)
   t.end()
 })
 
-test('should return an error for invalid pallet numbers', (t) => {
-  const err = getShipping(1, 1, 15)
+test('should throw an error for invalid pallet numbers', (t) => {
   t.plan(1)
-  t.equal(err.message, 'max pallet number is 14', 'max pallet number is 14')
+  t.throws(() => { getShipping(1, 1, 15) }, /max pallet number is 14/)
+  t.end()
+})
+
+test('should default to 1 pallet is none supplied', (t) => {
+  const rate = getShipping(1, 1)
+  t.plan(1)
+  t.equal(rate, 68.41, 'ok i guess you mean 1 pallet')
   t.end()
 })
 
@@ -47,9 +50,8 @@ test('should handle pallets between 10 and 14', (t) => {
 })
 
 test('some shipping zones are not supported', (t) => {
-  const err = getShipping(16, 16, 1)
   t.plan(1)
-  t.equal(err.message, 'POA - Prices available on application', 'POA - Prices available on application')
+  t.throws(() => { getShipping(16, 16, 1) }, /POA - Prices available on application/)
   t.end()
 })
 
