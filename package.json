@@ -9,6 +9,8 @@
   "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
   "license": "MIT",
   "devDependencies": {
+    "istanbul": "^0.4.4",
+    "standard": "^7.1.2",
     "tape": "^4.6.0"
   },
   "dependencies": {
