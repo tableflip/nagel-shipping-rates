@@ -16,7 +16,7 @@ Exports helper functions that help look up zones and rates from the [Nagel Group
 const shipping = require('nagel-shipping-rates')
 
 shipping.getZone('SE22 9BA')
-// 5
+// { placeName: 'South East London', zone: 5 }
 
 // shipping.getRate(departureZone, deliveryZone, pallets)
 shipping.getRate(5, 3, 1)
