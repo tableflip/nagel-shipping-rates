@@ -1,4 +1,4 @@
 module.exports = {
-  getRate: require('./lib/getShipping'),
+  getRate: require('./lib/getRate'),
   getZone: require('./lib/getZone')
 }
