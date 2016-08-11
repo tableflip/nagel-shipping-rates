@@ -84,3 +84,9 @@ test('should throw an error if no zone is found', (t) => {
   t.throws(() => { getZone('XX0 0XX') }, /XX0 0XX is not in a zone/)
   t.end()
 })
+
+test('set of postcodes to test', (t) => {
+  t.plan(1)
+  t.equal(getZone('DE1 2HE').zone, 9, 'DE1 2HE - 9')
+  t.end()
+})
