@@ -22,3 +22,7 @@ shipping.getZone('SE22 9BA')
 shipping.getRate(5, 3, 1)
 // 71.31
 ```
+
+----
+
+A [(╯°□°）╯︵TABLEFLIP](https://tableflip.io) side project.
